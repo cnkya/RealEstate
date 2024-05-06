@@ -8,7 +8,19 @@
 body{
     font-family: Arial;
 }
+h1,h2,h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
 /*utilities*/
 
 /*header*/
+header.site-init{
+    background-image: url(./img/header.jpg);
+    background-position:top left;
+    background-size: auto;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
