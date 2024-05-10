@@ -60,9 +60,11 @@ img{
 }
 .bt{
     font-weight: bold;
+    text-align: center;
 }
 .lt{
     font-weight: 100;
+    text-align: center;
 }
 
 
@@ -120,4 +122,27 @@ img{
 .site-contact a{
     color: black;
     
-}    
+} 
+
+
+    
+}
+.footer{
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+    
+}
+.footer a{
+    color: black;
+} 
+.form-control{
+    background-color: rgb(228, 226, 226);
+    padding: 1rem;
+    width: 50%;
+    align-items: left;
+    border: radius 5%; 
+
+}  
