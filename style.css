@@ -78,7 +78,7 @@ img{
 }
 .flex-c{
     display: flex;
-    padding-right: 35px;
+    
 }
 
 /*more about us*/
@@ -95,22 +95,15 @@ img{
     text-align: center;    
 
 }
-.houses-items a{
-    background-color: orange;
-    
+.houses-items a{    
     
 }
-
 
 .see-details{
     background-color: orange;
     display: block;
     
 }
-
-
-
-
 
 /*contact*/
 .site-contact{
@@ -120,13 +113,11 @@ img{
 }
 
 .site-contact a{
-    color: black;
-    
+    color: black;    
 } 
 
-
     
-}
+
 .footer{
     background-color: rgb(228, 226, 226);
     display: flex;
@@ -138,11 +129,41 @@ img{
 .footer a{
     color: black;
 } 
-.form-control{
-    background-color: rgb(228, 226, 226);
+.form-container{
+    background-color: #dedede;
     padding: 1rem;
-    width: 50%;
-    align-items: left;
-    border: radius 5%; 
+    border-radius: 1rem;  
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 
 }  
+.form-container fieldset{
+    font-size: 1.6rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+}
+.form-control{
+    margin: 1rem;
+    
+}
+
+.form-control input, 
+.form-control select, 
+.form-control textarea{
+    width: 60%;
+    padding: 3px;
+}
+.form-control label{
+    display: inline-block;
+    width: 150px;
+    font size: 1.4rem;
+}
+
+.margin-r-sm{
+    margin-right: 2rem;
+}
+    
+
+

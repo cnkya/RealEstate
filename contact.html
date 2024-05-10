@@ -26,7 +26,7 @@
         <p class="lt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae architecto libero id alias facilis dolore, tempora fuga voluptatem, illo ad dignissimos molestiae suscipit possimus saepe numquam magnam provident culpa sint. <i class="fa-solid fa-circle-info"></i></p>
         
 
-        <div class="form-control">
+        <div class="form-container">
             <fieldset>
             <legend>Personal Information</legend>
             <div class="form-control">
@@ -47,14 +47,16 @@
                 <textarea></textarea>
             </div>
             </fieldset>
-        </div>
-        <div class="form-control">
+        
+        
             <fieldset>
             <legend>Product information</legend>
             <div class="form-control">
                 <label>Type:</label>
                 <select>
                     <option value="option 1">--Option 1--</option>
+                    <option value="option 2">--Option 2--</option>
+                    <option value="option 3">--Option 3--</option>
                 </select>
             </div>
 
@@ -64,32 +66,32 @@
                 
             </div>
             </fieldset>
-
-            <div class="form-control">
-                <fieldset>
+            
+            <fieldset>
                 <legend>Contact information</legend>
-                <div class="form-control">
-                    <label>Email:</label>
-                    
-                </div>
-    
-                <div class="form-control">
-                    <label>Phone:</label>
-                    
-                </div>
-                <div class="form-control">
-                    <label>Date:</label>
-                    <input type="date">
-
-                    
-                </div>
-    
-                <div class="form-control">
-                    <label>Hour:</label>
-                    <input hour="text">           
-                    
-                </div>
-                </fieldset>
+                <div class="form-control flex-c">
+                    <div class="flex-c margin-r-sm">                         
+                            <label>Email:</label>
+                            <input type="radio">
+                        </div>   
+                        <div class="flex-c">
+                            <label>Phone:</label>
+                            <input type="radio">                    
+                        </div>
+                    </div>
+                <div>
+                    <div class="form control flex-c">
+                        <div class="flex-c margin-r-sm">
+                            <label>Date:</label>
+                            <input type="date">                    
+                        </div>    
+                        <div class="flex-c">
+                            <label>Hour:</label>
+                            <input hour="text">                   
+                        </div>
+                    </div>            
+            </fieldset>
+        </div>
     </main>
     <footer class="footer">
         <div>
