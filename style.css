@@ -25,10 +25,7 @@ h3{
     font-size: 2.2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    }
-
-
-
+}
 
 a{
     color:white;
@@ -39,7 +36,9 @@ a{
 }
 img{
     max-width: 100%;
-    }
+    
+}
+
 /*utilities*/
 
 .bar{
@@ -47,7 +46,18 @@ img{
     justify-content: space-around;
     height: 10rem;
     align-items: center;
-
+}
+@media(max-width:768px){
+    /*mobile presentation*/
+    .bar{
+        flex-direction: column;
+    }
+    .container{
+        width: 95%;
+    }
+    .flex-c{
+        flex-direction: column;
+    }
 }
 .number-clr{
     color: rgb(32, 158, 32);
@@ -80,11 +90,30 @@ img{
     display: flex;
     
 }
+.flex-icon{
+    display: flex;
+    
+}
+.flex-icon p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
 /*more about us*/
 .more-about-item{
     margin-right: 1rem;
     padding: 1rem;
+}
+
+.more-about-item p{
+    text-align: justify;
+}
+@media(max-width:768px){
+    .more-about-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    }
 }
 
 /*houses and penthouses*/
@@ -95,9 +124,7 @@ img{
     text-align: center;    
 
 }
-.houses-items a{    
-    
-}
+
 
 .see-details{
     background-color: orange;
@@ -124,6 +151,7 @@ img{
     justify-content: space-around;
     height: 5rem;
     align-items: center;
+    
     
 }
 .footer a{
@@ -158,12 +186,37 @@ img{
 .form-control label{
     display: inline-block;
     width: 150px;
-    font size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 .margin-r-sm{
     margin-right: 2rem;
 }
     
+/*blog*/
 
+.see-more{
+    display: inline;
+    color: blue;
+    font-size: x-small;
+}
+
+
+.footer-about a{
+    color: black;
+}
+
+/*about*/
+
+.footer-about{
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    align-items: center;
+}
+.about-p{
+    text-align: center;  
+
+}
 
